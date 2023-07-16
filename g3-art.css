@@ -2,6 +2,8 @@
 *{
     font-family: 'Oswald', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    margin: none;
+    padding: none;
 }
 .btn-primary{
     background-color: #FF900E;
@@ -148,7 +150,8 @@ main{
     height: 200px;
     box-shadow: 5px 5px 10px gray;
 }
-/* spondor section style  */
+/* sponsor section style  */
+
 .sponsor-cont{
     margin-bottom: 130px;
 }
@@ -182,8 +185,9 @@ main{
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
-        width: 100%;
+        width: 90%;
     }
+        
     nav, .team-cont, .fact-cont, .sponsor-icon, .feature-cont{
         flex-direction: column;
     }
@@ -212,7 +216,7 @@ main{
         width: 100%;
     }
     .ten-year{
-        margin-left: 50px;
+        margin-left: 10px;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
