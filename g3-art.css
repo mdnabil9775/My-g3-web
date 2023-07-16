@@ -87,6 +87,30 @@ main{
     color: #fd9115;
     font-weight: 800;
 }
+/* facts section  */
+.fact-h1{
+    font-size: 3rem;
+}
+.fact-p{
+    color: #727272;
+}
+.fact-cont{
+    display: flex;
+    justify-content: space-around;
+    margin: 10rem 0px;
+}
+.item{
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 4.5rem;
+    width: 240px;
+    height: 200px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+
+
 /* responsive style  */
 @media screen and (max-width:576px) {
     header{
