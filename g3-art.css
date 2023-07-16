@@ -111,11 +111,10 @@ main{
     border-radius: 10px;
     color: antiquewhite;
     width: 342px;
-    height: 150px;
+    height: 200px;
     text-align: center;
-    padding-top: 60px ;
-    padding-bottom: 0px;
-    position: absolute;
+    padding-top: 10px;
+    position: relative;
     margin-top: -150px;
     margin-left: -90px;
 }
@@ -126,7 +125,6 @@ main{
 .ten-year h1{
     font-size: 3rem;
     font-weight: 700;
-    margin: 0px auto;
 }
 
 /* facts section  */
