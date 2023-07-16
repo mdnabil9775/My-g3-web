@@ -108,6 +108,25 @@ main{
     height: 200px;
     box-shadow: 5px 5px 10px gray;
 }
+/* spondor section style  */
+.sponsor-cont{
+    margin-bottom: 130px;
+}
+.sponsor-cont h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.sponsor-cont p{
+    font-size: 1rem;
+    color: #424242;
+    text-align: center;
+}
+.sponsor-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
 
 
 
@@ -117,7 +136,7 @@ main{
         padding: 20px;
         width: 100%;
     }
-    nav, .team-cont, .fact-cont{
+    nav, .team-cont, .fact-cont, .sponsor-icon{
         flex-direction: column;
     }
     .team-img{
@@ -130,9 +149,12 @@ main{
     .fact-cont{
         margin-top: 50px;
     }
+    .sponsor-icon img{
+        margin-bottom: 30px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    nav, .team-cont{
+    nav, .team-cont, .sponsor-icon{
         flex-direction: column;
     }
     .team-text{
@@ -149,5 +171,8 @@ main{
     }
     .fact-cont{
         justify-content: center;
+    }
+    .sponsor-icon img{
+        margin-bottom: 30px;
     }
 }
