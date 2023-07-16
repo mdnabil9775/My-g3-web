@@ -97,7 +97,7 @@ main{
 .fact-cont{
     display: flex;
     justify-content: space-around;
-    margin: 10rem 0px;
+    margin: 10rem auto;
 }
 .item{
     border: 2px solid gray;
@@ -115,12 +115,20 @@ main{
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
+        width: 100%;
     }
-    nav, .team-cont{
+    nav, .team-cont, .fact-cont{
         flex-direction: column;
     }
     .team-img{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .item{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .fact-cont{
+        margin-top: 50px;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -133,5 +141,13 @@ main{
     }
     header{
         padding: 25px;
+        width: 100%;
+    }
+    .item{
+        width: 180px;
+        height: 200px;
+    }
+    .fact-cont{
+        justify-content: center;
     }
 }
