@@ -127,6 +127,13 @@ main{
     align-items: center;
     margin: 50px 0;
 }
+/* footer section style  */
+.footer{
+    background-color: antiquewhite;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+}
 
 
 
@@ -152,6 +159,10 @@ main{
     .sponsor-icon img{
         margin-bottom: 30px;
     }
+    .footer{
+        width: 100%;
+
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
     nav, .team-cont, .sponsor-icon{
@@ -174,5 +185,9 @@ main{
     }
     .sponsor-icon img{
         margin-bottom: 30px;
+    }
+    .footer{
+        width: 100%;
+        
     }
 }
